@@ -8,27 +8,27 @@
 </head>
 <body>
 	<div class="calculadora">
-		<input type="text" id="display">
+		<input type="text" id="input" value="0">
 		<div class="botones">
-			<button class="boton">7</button>
-			<button class="boton">8</button>
-			<button class="boton">9</button>
+			<button class="boton" onclick="addNumber(7)">7</button>
+			<button class="boton" onclick="addNumber(8)">8</button>
+			<button class="boton" onclick="addNumber(9)">9</button>
 			<button class="boton">DEL</button>
 			<button class="boton">AC</button>
 
-			<button class="boton">4</button>
-			<button class="boton">5</button>
-			<button class="boton">6</button>
-			<button class="boton">x</button>
-			<button class="boton">÷</button>
+			<button class="boton" onclick="addNumber(4)">4</button>
+			<button class="boton" onclick="addNumber(5)">5</button>
+			<button class="boton" onclick="addNumber(6)">6</button>
+			<button class="boton" onclick="addOperator('x')">x</button>
+			<button class="boton" onclick="addOperator()">÷</button>
 
-			<button class="boton">1</button>
-			<button class="boton">2</button>
-			<button class="boton">3</button>
-			<button class="boton">+</button>
-			<button class="boton">-</button>
+			<button class="boton" onclick="addNumber(1)">1</button>
+			<button class="boton" onclick="addNumber(2)">2</button>
+			<button class="boton" onclick="addNumber(3)">3</button>
+			<button class="boton" onclick="addOperator(+)">+</button>
+			<button class="boton" onclick="addOperator(-)">-</button>
 
-			<button class="boton">0</button>
+			<button class="boton" onclick="addNumber(0)">0</button>
 			<button class="boton">.</button>
 			<button class="boton">=</button>
 		</div>
