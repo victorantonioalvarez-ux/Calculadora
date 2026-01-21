@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: lightgray;
+}
+
+.calculadora{
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 5px;
+	width: 320px;
+}
+
+#display {
+	width: 93%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.botones{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+}
+
+.boton{
+	padding: 15px;
+	border-color: gray;
+	border-radius: 5px;
+}
